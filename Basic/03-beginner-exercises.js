@@ -64,22 +64,34 @@ console.log(`El número grande es ${numeroGrande}`);
 
 nombre = true;
 edad = '37';
-esProgramador;
+esProgramador = undefined;
 valorIndefinido = 45;
 valorNull = Symbol('nuevoSymbol');
 valorSymbol = 56565658989898787545454112154548787545656565454878787n;
 numeroGrande = null;
 
-console.log(`El nombre es ${nombre}`);
-console.log(`La edad es ${edad}`);
-console.log(`El valor booleano es ${esProgramador}`);
-console.log(`El valor undefined es ${valorIndefinido}`);
-console.log(valorNull);
-console.log(valorSymbol);
-console.log(`El número grande es ${numeroGrande}`);
-
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
+
+const NOMBRE = 'Roly Gonzalo';
+const EDAD = 38;
+const ES_PRO = true;
+const VALOR_UNDEFINED = undefined;
+const VALOR_NULL = null;
+const VALOR_SYMBOL = Symbol('simbol');
+const BIG_INT = BigInt(45545456565656565656565656565);
 
 // 9. A continuación, modifica los valores de las constantes
 
+// NOMBRE = 'Roly Gonzalo';
+// EDAD = 38;
+// ES_PRO = true;
+// VALOR_UNDEFINED = undefined;
+// VALOR_NULL = null;
+// VALOR_SYMBOL = Symbol('simbol');
+// BIG_INT = BigInt(45545456565656565656565656565);
+
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
+
+/* No se puede modificar una constante, el programa nos marca error
+TypeError: Assignment to constant variable.
+*/
