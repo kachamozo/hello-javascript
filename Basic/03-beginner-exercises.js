@@ -4,6 +4,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=4733
 */
 
 // 1. Escribe un comentario en una línea
+
 //Este es un comentario en una sola línea
 
 // 2. Escribe un comentario en varias líneas
@@ -17,7 +18,7 @@ líneas separadas
 let nombre = 'Roly Gonzalo';
 let edad = 38;
 let esProgramador = true;
-let valorIndefinido;
+let valorIndefinido = undefined;
 let valorNull = null;
 let valorSymbol = Symbol('simbol');
 let numeroGrande = BigInt(45545456565656565656565656565);
