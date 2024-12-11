@@ -15,17 +15,11 @@ líneas separadas
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
 
 let nombre = 'Roly Gonzalo';
-
 let edad = 38;
-
 let esProgramador = true;
-
 let valorIndefinido;
-
 let valorNull = null;
-
 let valorSymbol = Symbol('simbol');
-
 let numeroGrande = BigInt(45545456565656565656565656565);
 
 // 4. Imprime por consola el valor de todas las variables
@@ -49,6 +43,22 @@ console.log(typeof valorSymbol);
 console.log(typeof numeroGrande);
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
+
+nombre = 'Jimena';
+edad = 36;
+esProgramador = false;
+valorIndefinido;
+valorNull = null;
+valorSymbol = Symbol('simbol');
+numeroGrande = 56521525878521526582554587n;
+
+console.log(`El nombre es ${nombre}`);
+console.log(`La edad es ${edad}`);
+console.log(`El valor booleano es ${esProgramador}`);
+console.log(`El valor undefined es ${valorIndefinido}`);
+console.log(`El valor null es ${valorNull}`);
+console.log(valorSymbol);
+console.log(`El número grande es ${numeroGrande}`);
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
 
