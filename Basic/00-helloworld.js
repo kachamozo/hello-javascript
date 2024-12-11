@@ -14,9 +14,9 @@ un comentario
 en varias líneas
 */
 
-console.log("¡Hola, JavaScript!")
-console.log('¡Hola, JavaScript!')
-console.log(`¡Hola, JavaScript!`)
+console.log('¡Hola, JavaScript!'); // aqui va con comillas dobles pero prettier me formatea a comillas simples
+console.log('¡Hola, JavaScript!');
+console.log(`¡Hola, JavaScript!`);
 
 // console.log("¡Hola, JavaScript!")
 
@@ -26,11 +26,11 @@ console.log('¡Hola, JavaScript!')
 console.log(`¡Hola, JavaScript!`)
 */
 
-console.log("5")
-console.log(5)
-console.log(5 + 2)
-console.log(5 - 2)
-console.log(5 * 2)
-console.log(5 / 2)
-console.log(5 % 2)
-console.log(5 ** 2)
+console.log('5');
+console.log(5);
+console.log(5 + 2);
+console.log(5 - 2);
+console.log(5 * 2);
+console.log(5 / 2);
+console.log(5 % 2);
+console.log(5 ** 2);
