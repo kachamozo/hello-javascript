@@ -62,6 +62,22 @@ console.log(`El número grande es ${numeroGrande}`);
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
 
+nombre = true;
+edad = '37';
+esProgramador;
+valorIndefinido = 45;
+valorNull = Symbol('nuevoSymbol');
+valorSymbol = 56565658989898787545454112154548787545656565454878787n;
+numeroGrande = null;
+
+console.log(`El nombre es ${nombre}`);
+console.log(`La edad es ${edad}`);
+console.log(`El valor booleano es ${esProgramador}`);
+console.log(`El valor undefined es ${valorIndefinido}`);
+console.log(valorNull);
+console.log(valorSymbol);
+console.log(`El número grande es ${numeroGrande}`);
+
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
 // 9. A continuación, modifica los valores de las constantes
