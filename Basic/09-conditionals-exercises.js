@@ -7,14 +7,27 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
 
+const miNombre = 'Roly';
+
+if (miNombre === 'Roly') {
+  console.log(`Minobre es ${miNombre}`);
+}
+
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
+
+const nombre = 'Carlos';
+const pass = 'carlos123456';
+
+if (nombre === 'Carlos' && pass === 'carlos123456') {
+  console.log(`El nombre y la contraseña son correctos`);
+}
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
-//    dependiendo de la edad 
+//    dependiendo de la edad
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
