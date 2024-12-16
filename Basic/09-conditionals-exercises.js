@@ -47,6 +47,12 @@ if (votar >= 18) {
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
 //    dependiendo de la edad
 
+const edad = 25;
+
+edad >= 18
+  ? console.log('La persona es mayor de edad')
+  : console.log('La persona es menor de edad');
+
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
