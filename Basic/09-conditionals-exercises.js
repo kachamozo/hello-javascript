@@ -24,7 +24,25 @@ if (nombre === 'Carlos' && pass === 'carlos123456') {
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
+const numero = 4;
+
+if (numero > 0) {
+  console.log('El número es positivo');
+} else if (numero < 0) {
+  console.log('El número es negativo');
+} else {
+  console.log('El número es cero');
+}
+
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
+
+const votar = 12;
+
+if (votar >= 18) {
+  console.log('la persona puede votar');
+} else {
+  console.log(`La persona no puede votar le faltan ${18 - votar} años`);
+}
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
 //    dependiendo de la edad
