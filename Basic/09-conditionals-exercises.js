@@ -69,10 +69,73 @@ if (mes === 'enero' || mes === 'febrero' || mes === 'marzo') {
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
 
+if (mes === 'febrero') {
+  console.log('El mes tiene 28 días'); // Considerando un año no bisiesto
+} else if (
+  mes === 'abril' ||
+  mes === 'junio' ||
+  mes === 'septiembre' ||
+  mes === 'noviembre'
+) {
+  console.log('El mes tiene 30 días');
+} else {
+  console.log('El mes tiene 31 días');
+}
+
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
 
+const idioma = 'español'; // Puedes cambiar este valor para probar otros idiomas
+
+switch (idioma) {
+  case 'español':
+    console.log('¡Hola! ¿Cómo estás?');
+    break;
+  case 'ingles':
+    console.log('Hello! How are you?');
+    break;
+  case 'frances':
+    console.log('Bonjour! Comment ça va?');
+    break;
+  default:
+    console.log('¡Hola! No entiendo este idioma.');
+}
+
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
+switch (mes) {
+  case 'enero':
+  case 'febrero':
+  case 'marzo':
+    console.log('La estación es verano');
+    break;
+  case 'abril':
+  case 'mayo':
+  case 'junio':
+    console.log('La estación es otoño');
+    break;
+  case 'julio':
+  case 'agosto':
+  case 'septiembre':
+    console.log('La estación es invierno');
+    break;
+  default:
+    console.log('La estación es primavera');
+}
+
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+
+switch (mes) {
+  case 'febrero':
+    console.log('El mes tiene 28 días'); // Considerando un año no bisiesto
+    break;
+  case 'abril':
+  case 'junio':
+  case 'septiembre':
+  case 'noviembre':
+    console.log('El mes tiene 30 días');
+    break;
+  default:
+    console.log('El mes tiene 31 días');
+}
