@@ -55,10 +55,16 @@ edad >= 18
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
-const mes = 'enero';
+const mes = 'octubre';
 
 if (mes === 'enero' || mes === 'febrero' || mes === 'marzo') {
   console.log('La estación es verano');
+} else if (mes === 'abril' || mes === 'mayo' || mes === 'junio') {
+  console.log('La estación es otoño');
+} else if (mes === 'julio' || mes === 'agosto' || mes === 'septiembre') {
+  console.log('La estación es invierno');
+} else {
+  console.log('La estación es primavera');
 }
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
